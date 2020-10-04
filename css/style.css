@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(120, 78, 219);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 300px;
+    height: 400px;
+    background-color: #ffff;
+    margin: auto;
+    margin-top: 15%;
+    border-radius: 5%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 2px rgb(207, 206, 206);
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header .datos h1{
+font-size: 20px;
+text-align: center;
+color: rgb(120, 78, 219) ;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header .datos h2{
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+header .ubicacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+
+section{
+    margin-top: 20px;
+}
+section .numeros{
+    display: flex;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section .palabras{
+    display: flex;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section picture{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+section picture img{
+    padding-right: 15px;
+}
+
+section button{
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(221, 50, 107);
+    border-radius: 10px;
+    border: none;
+    
+    padding: 10px 40px 10px 40px;
+}
+
+section button a{
+    text-decoration: none;
+    color: #ffff;
+}
+section button:hover{
+    background-color: rgb(224, 111, 190);
+}
+
